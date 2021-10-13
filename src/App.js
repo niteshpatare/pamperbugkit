@@ -35,6 +35,8 @@ function App() {
                     Explore and Enjoy
                   </NavLink>
                   
+                  <a href='/festivekit' className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">F Kit</a>
+
                   <NavLink to="/festivekit" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
                     Festive Kit
                   </NavLink>
