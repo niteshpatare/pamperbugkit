@@ -12,7 +12,7 @@ const Festivekit = () => {
     return (
         <Fragment>
         <header className="bg-white shadow">
-                <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                <div className="max-w-8xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                 <h1 className="text-3xl font-bold text-gray-900">
                     Festive Kit
                 </h1>
@@ -20,7 +20,7 @@ const Festivekit = () => {
             </header>
             <main>
             <div className="">
-                <div className="max-w-2xl mx-auto py-16 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-16 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+                <div className="max-w-8xl mx-auto py-4 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-4 lg:max-w-8xl lg:px-8 lg:grid-cols-2">
                     <div>
                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Whats inside?</h2>
                     <p className="mt-4 text-gray-500">Spice up the Diwali celebration by adding fun filled activities.</p>
@@ -68,8 +68,8 @@ const Festivekit = () => {
                     </div>
                     <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
                     <img src={ diya1 } alt="Walnut card tray with white powder coated steel divider and 3 punchout holes." className="bg-gray-100 rounded-lg"/>
-                    <img src={ diya2 } alt="Top down view of walnut card tray with embedded magnets and card groove." className="bg-gray-100 rounded-lg"/>
-                    <img src={ diya3 } alt="Side of walnut card tray with card groove and recessed card area." className="bg-gray-100 rounded-lg"/>
+                    <img src={ diya3 } alt="Top down view of walnut card tray with embedded magnets and card groove." className="bg-gray-100 rounded-lg"/>
+                    <img src={ diya2 } alt="Side of walnut card tray with card groove and recessed card area." className="bg-gray-100 rounded-lg"/>
                     <img src={ diya4 } alt="Walnut card tray filled with cards and card angled in dedicated groove." className="bg-gray-100 rounded-lg"/>
                     </div>
                 </div>
