@@ -4,7 +4,7 @@ import './App.css';
 import Page from "./Page.js";
 import Helmet from "react-helmet";
 import { appendScript } from './razor/Paybtnscript.js';
-import {   BrowserRouter as Router, NavLink, Link, Route } from "react-router-dom";
+import {   BrowserRouter as Router, NavLink, Link, Route, Switch } from "react-router-dom";
 import Exploreenjoy from "./component/Exploreenjoy.js";
 import Festivekit from "./component/Festivekit.js";
 import Aboutbug from "./component/Aboutbug.js";
@@ -34,34 +34,33 @@ function App() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   {/*<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->*/}
-                  <NavLink to="/" exact aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <NavLink replace to="/" exact aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
                     Explore and Enjoy
                   </NavLink>
                   
-                  <Link to='/festivekit' className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">F Kit</Link>
-
-                  <NavLink to="/festivekit" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <NavLink replace to="/festivekit" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
                     Festive Kit
                   </NavLink>
 
 
-                  <NavLink to="/aboutpamperbug" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <NavLink replace to="/aboutpamperbug" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
                   About Pamper Bug
                   </NavLink>                  
                   <Route
                     path="/"
-                    component={Exploreenjoy}
+                    
                     exact 
                 />
                 <Route
                     path="/festivekit"
-                    component={Festivekit} 
+                    
+                    exact
                 />
                 <Route
                     path="/aboutpamperbug"
-                    component={Aboutbug} 
+                    
+                    exact 
                 />
-
 
                 </div>
               </div>
@@ -86,7 +85,17 @@ function App() {
 
 
 
-      <Page/>
+      <Switch>
+      <Route exact path="/aboutpamperbug" >
+          <Aboutbug />
+        </Route>
+        <Route exact path="/festivekit" >
+          <Festivekit />
+        </Route>
+        <Route exact path="/">
+          <Exploreenjoy />
+        </Route>
+      </Switch>
 
 
 
