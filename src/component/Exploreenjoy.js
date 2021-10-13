@@ -1,5 +1,5 @@
 import React, {Fragment, useEffect} from 'react';
-import image1 from './images/image1.svg';
+
 import image2 from './images/image2.svg';
 import image3 from './images/image3.svg';
 import image4 from './images/image4.svg';
