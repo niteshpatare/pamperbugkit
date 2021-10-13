@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { StaticRouter } from "react-router-dom";
 
-ReactDOM.render(
+ReactDOM.hydrate(
     <React.StrictMode>
-      <App />
+        <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

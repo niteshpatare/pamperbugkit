@@ -23,6 +23,7 @@ function Page() {
         </Route>
       </Switch>
     </Router>
+    
   );
 }
 
