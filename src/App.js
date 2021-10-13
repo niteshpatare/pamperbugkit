@@ -4,6 +4,8 @@ import './App.css';
 import Page from "./Page.js";
 import Helmet from "react-helmet";
 import { appendScript } from './razor/Paybtnscript.js';
+import {   BrowserRouter as Router, NavLink } from "react-router-dom";
+
 function App() {
 
   useEffect(() => {       
@@ -11,7 +13,7 @@ function App() {
   }, []);
 
   return (
-  
+    <Router>
     <div>
       <Helmet>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,12 +31,18 @@ function App() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   {/*<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->*/}
+                  <NavLink to="/" exact aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
+                    Explore and Enjoy
+                  </NavLink>
                   
-                  <a href="/" aria-current="page" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium" >Explore and Enjoy</a>
-                  
-                  <a href="/festivekit" className="text-gray-300 bg-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Festive Kit</a>
+                  <NavLink to="/festivekit" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
+                    Festive Kit
+                  </NavLink>
 
-                  <a href="/aboutpamperbug" className="text-gray-300 bg-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Pamper Bug</a>
+
+                  <NavLink to="/aboutpamperbug" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
+                  About Pamper Bug
+                  </NavLink>                  
 
                 </div>
               </div>
@@ -101,7 +109,7 @@ function App() {
 
         </div>
       
-
+        </Router>
   );
 }
 

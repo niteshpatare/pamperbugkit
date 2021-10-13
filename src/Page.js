@@ -12,13 +12,13 @@ function Page() {
   return (
     <Router>
       <Switch>
-      <Route path="/aboutpamperbug" component={Aboutbug}>
+      <Route exact path="/aboutpamperbug" >
           <Aboutbug />
         </Route>
-        <Route path="/festivekit" component={Festivekit}>
+        <Route exact path="/festivekit" >
           <Festivekit />
         </Route>
-        <Route path="/">
+        <Route exact path="/">
           <Exploreenjoy />
         </Route>
       </Switch>
