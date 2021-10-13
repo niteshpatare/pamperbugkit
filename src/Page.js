@@ -11,7 +11,7 @@ import Aboutbug from "./component/Aboutbug.js";
 function Page() {
   return (
     <Router>
-      <Switch>
+      <Switch> {/*not used does not work when used inside a component*/}
       <Route exact path="/aboutpamperbug" component={Aboutbug}>
           <Aboutbug />
         </Route>
