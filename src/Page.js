@@ -12,10 +12,10 @@ function Page() {
   return (
     <Router>
       <Switch>
-      <Route path="/aboutpamperbug">
+      <Route path="/aboutpamperbug" component={Aboutbug}>
           <Aboutbug />
         </Route>
-        <Route path="/festivekit">
+        <Route path="/festivekit" component={Festivekit}>
           <Festivekit />
         </Route>
         <Route path="/">
