@@ -4,7 +4,7 @@ import './App.css';
 import Page from "./Page.js";
 import Helmet from "react-helmet";
 import { appendScript } from './razor/Paybtnscript.js';
-import {   BrowserRouter as Router, NavLink } from "react-router-dom";
+import {   BrowserRouter as Router, NavLink, Link } from "react-router-dom";
 
 function App() {
 
@@ -35,7 +35,7 @@ function App() {
                     Explore and Enjoy
                   </NavLink>
                   
-                  <a href='/festivekit' className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">F Kit</a>
+                  <Link href='/festivekit' className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">F Kit</Link>
 
                   <NavLink to="/festivekit" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
                     Festive Kit
