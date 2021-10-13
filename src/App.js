@@ -34,16 +34,16 @@ function App() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   {/*<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->*/}
-                  <NavLink replace to="/" exact aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <NavLink to="/" exact aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
                     Explore and Enjoy
                   </NavLink>
                   
-                  <NavLink replace to="/festivekit" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <NavLink to="/festivekit" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
                     Festive Kit
                   </NavLink>
 
 
-                  <NavLink replace to="/aboutpamperbug" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <NavLink to="/aboutpamperbug" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
                   About Pamper Bug
                   </NavLink>                  
 
