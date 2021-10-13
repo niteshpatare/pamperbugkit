@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Page from './Page';
 import Helmet from "react-helmet";
 import { appendScript } from './razor/Paybtnscript.js';
 import {   BrowserRouter as Router, NavLink, Route, Switch } from "react-router-dom";
@@ -70,17 +70,7 @@ function App() {
 
 
 
-      <Switch>
-      <Route exact path="/aboutpamperbug" component={Aboutbug}>
-          <Aboutbug />
-        </Route>
-        <Route exact path="/festivekit" component={Festivekit}>
-          <Festivekit />
-        </Route>
-        <Route exact path="/" component={Exploreenjoy}>
-          <Exploreenjoy />
-        </Route>
-      </Switch>
+      <Page/>
 
 
 
