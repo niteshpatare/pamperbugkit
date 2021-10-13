@@ -4,7 +4,10 @@ import './App.css';
 import Page from "./Page.js";
 import Helmet from "react-helmet";
 import { appendScript } from './razor/Paybtnscript.js';
-import {   BrowserRouter as Router, NavLink, Link } from "react-router-dom";
+import {   BrowserRouter as Router, NavLink, Link, Route } from "react-router-dom";
+import Exploreenjoy from "./component/Exploreenjoy.js";
+import Festivekit from "./component/Festivekit.js";
+import Aboutbug from "./component/Aboutbug.js";
 
 function App() {
 
@@ -45,6 +48,20 @@ function App() {
                   <NavLink to="/aboutpamperbug" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
                   About Pamper Bug
                   </NavLink>                  
+                  <Route
+                    path="/"
+                    component={Exploreenjoy}
+                    exact 
+                />
+                <Route
+                    path="/festivekit"
+                    component={Festivekit} 
+                />
+                <Route
+                    path="/aboutpamperbug"
+                    component={Aboutbug} 
+                />
+
 
                 </div>
               </div>
