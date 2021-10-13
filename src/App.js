@@ -1,10 +1,10 @@
 import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Page from "./Page.js";
+
 import Helmet from "react-helmet";
 import { appendScript } from './razor/Paybtnscript.js';
-import {   BrowserRouter as Router, NavLink, Link, Route, Switch } from "react-router-dom";
+import {   BrowserRouter as Router, NavLink, Route, Switch } from "react-router-dom";
 import Exploreenjoy from "./component/Exploreenjoy.js";
 import Festivekit from "./component/Festivekit.js";
 import Aboutbug from "./component/Aboutbug.js";
@@ -46,21 +46,6 @@ function App() {
                   <NavLink replace to="/aboutpamperbug" aria-current activeClassName="bg-gray-900" className="bg-gray-900 hover:bg-gray-700 hover:text-white text-white px-3 py-2 rounded-md text-sm font-medium">
                   About Pamper Bug
                   </NavLink>                  
-                  <Route
-                    path="/"
-                    
-                    exact 
-                />
-                <Route
-                    path="/festivekit"
-                    
-                    exact
-                />
-                <Route
-                    path="/aboutpamperbug"
-                    
-                    exact 
-                />
 
                 </div>
               </div>
@@ -86,13 +71,13 @@ function App() {
 
 
       <Switch>
-      <Route exact path="/aboutpamperbug" >
+      <Route exact path="/aboutpamperbug" component={Aboutbug}>
           <Aboutbug />
         </Route>
-        <Route exact path="/festivekit" >
+        <Route exact path="/festivekit" component={Festivekit}>
           <Festivekit />
         </Route>
-        <Route exact path="/">
+        <Route exact path="/" component={Exploreenjoy}>
           <Exploreenjoy />
         </Route>
       </Switch>
