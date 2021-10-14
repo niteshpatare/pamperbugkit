@@ -65,7 +65,7 @@ const Exploreenjoy = () => {
 
             <br/><br/>
                         <div className="grid grid-col-1">
-                        <iframe  width="100%" height="380px" src="https://www.youtube.com/embed/nUfgi5oNxMM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        
                     </div>     
                     </div>
                 </div>
