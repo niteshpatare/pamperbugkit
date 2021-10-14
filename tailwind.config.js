@@ -7,12 +7,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   prefix: '',
   theme: {
-    colors: {
-      gray: colors.coolGray,
-      blue: twblue,
-      red: colors.rose,
-      pink: twpink,
-    },
+
     fontFamily: {
       sans: ['Poppins', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
@@ -24,6 +19,10 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
+      },
+      colors: {
+        prm: twblue,
+        sec: twpink,
       }
     }
   },

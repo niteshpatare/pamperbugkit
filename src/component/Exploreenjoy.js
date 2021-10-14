@@ -18,8 +18,8 @@ const Exploreenjoy = () => {
         <Fragment>
             <header className="bg-white shadow">
                 <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                <h1 className="text-3xl font-bold text-gray-900 mb-12">
-                <span className="text-pink">Pamper</span> <span className="text-blue">Bug</span>
+                <h1 className="text-3xl font-bold text-gray-900">
+                <span className="text-prm">Pamper</span> <span className="text-sec">Bug</span>
                 </h1>
                 </div>
             </header>
@@ -49,113 +49,102 @@ const Exploreenjoy = () => {
 
                 </div>*/}
                 
-                            <div className="grid grid-col-1">
-                                <h1 className="text-7xl">
-                                    <span className="text-pink">Happiness</span> <span className="text-blue">Crate</span>
-                                </h1>
-                            </div> 
-                <div className="flex gap-32">
-                <div className="mt-14 mx-0 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-8 lg:px-0 xl:mt-6 w-3/5">
-                        <div className="sm:text-center lg:text-left">
-                        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                            <span className="block xl:inline text-pink-600">What you get </span>
-                            <span className="block text-blue-600 xl:inline">every month</span>
-                        </h1>
-                        <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                            My extra hour's is a monthly subscription box, that offer's life skills to kids related to projects, crafts and activities related to different areas.
-                        </p><br/><br/>
-                        
+                <div className="grid grid-cols-4 gap-4 px-4 py-4">
+                    <div className="col-start-1 col-end-5 md:col-span-4 lg:col-span-1 sm:order-first md:order-last">
+                        <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
+                    </div>
+                    <div className="md:col-span-2 lg:col-span-4 sm:order-first md:order-last">                       
                             <form id="btnone">
-                                        
-                            </form>    
-                        </div>
-                    </div>
-                    <div className="mx-0 w-2/5">
-                    <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src={ hero } alt=""/>
-                </div></div>
-            </div>
-
-            <div className="bg-gray-200">
-                <div className="max-w-8xl mx-auto py-16 sm:px-6 lg:px-8">
-                    <div className="flex gap-32 px-4 py-8 sm:px-0 ">
-                        <div className="mx-0 w-3/4">
-                <h2 className="block text-4xl text-indigo-600 xl:inline">Lifeskill projects, crafts & activities on different areas</h2>
-                    <p className="mt-6s text-base text-gray-500 sm:mt-5 sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-            Each box comes in a guided step by step instruction manual and consists of 2 to 6 projects containing different activities that consist of challenges to do as a family and high quality materials to complete all of the projects.          
-                    </p> <br/>
-                    <form id="btntwo">
                         
-                    </form>
-
-                        </div>
-                        <div className="mx-0 w-1/4">
-                            <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src={ image2 } alt=""/>
-                        </div>
+                            </form> 
+                    </div>
+                    <div className="col-span-4 md:col-span-4 lg:col-span-2 mx-0 lg:col-span-3 order-last lg:order-first sm:order-last">
+                            <h1 className="text-7xl leading-normal">
+                                    <span className="text-7xl font-extrabold text-blue-600">Happiness Crate</span>
+                            </h1><br/><br/>
+                            <h2 className="text-4xl text-gray-900 sm:text-5xl md:text-6xl">
+                                <span className="leading-normal">Bring the outdoors inside.</span>
+                            </h2>   
                     </div>
                 </div>
             </div>
 
 
+            <div className="bg-gray-200">
+                <div className="max-w-7xl mx-auto py-16 sm:px-6 lg:px-8">
+                    <div className="flex flex-col md:flex-row gap-4 px-4 py-8 sm:px-0 ">
+                        <div className="mx-0 w-3/3 sm:w-2/3">
+                            <h2 className="block text-4xl text-indigo-600 xl:inline">Lifeskill projects, crafts & activities on different areas</h2>
+                            <p className="mt-6s text-base text-gray-500 sm:mt-5 sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+                            Each box comes in a guided step by step instruction manual and consists of 2 to 6 projects containing different activities that consist of challenges to do as a family and high quality materials to complete all of the projects.
+                            </p> <br/>
+                                <form id="btntwo">
+                                
+                                </form>
+                        </div>
+                        <div className="mx-0 w-3/3 sm:w-1/3">
+                        <img className="rounded h-56 w-full object-contain sm:h-72 md:h-96 lg:w-full lg:h-full" src={ image2 } alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                   
             <div className="">
-                <div className="max-w-8xl mx-auto py-16 sm:px-6 lg:px-8">
-                    <div className="flex gap-32 px-4 py-8 sm:px-0 ">
-                        <div className="mx-0 w-1/4">
-                            <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src={ image3 } alt=""/>
+                <div className="max-w-7xl mx-auto py-16 sm:px-6 lg:px-8">
+                    <div className="flex flex-col md:flex-row gap-4 px-4 py-8 sm:px-0 ">
+                        <div className="mx-0 w-3/3 sm:w-1/3">
+                            <img className="rounded h-56 w-full object-contain sm:h-72 md:h-96 lg:w-full lg:h-full" src={ image3 } alt=""/>
                         </div>
-                        <div className="mx-0 w-3/4">
-                <h2 className="block text-4xl text-indigo-600 xl:inline">Get your kid ready for a real world in a fun way</h2>
-                <p className="mt-6s text-base text-gray-500 sm:mt-5 sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-                    Perfect thing to keep little hands and minds busy, while promoting bonding and learning. A task that willl actually keep them engaged and teach them something throughout the process.
-                    </p> <br/>
-                    <form id="btnthree">
-                        
-                        </form>
-
-                        </div>
+                        <div className="mx-0 w-3/3 sm:w-2/3">
+                            <h2 className="block text-4xl text-indigo-600 xl:inline">Get your kid ready for a real world in a fun way</h2>
+                            <p className="mt-6s text-base text-gray-500 sm:mt-5 sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+                                Perfect thing to keep little hands and minds busy, while promoting bonding and learning. A task that willl actually keep them engaged and teach them something throughout the process.
+                                </p> <br/>
+                                <form id="btnthree">
+                                
+                                </form>
+                             </div>
 
                     </div>
                 </div>
             </div>
+
 
             <div className="bg-gray-200">
-                <div className="max-w-8xl mx-auto py-16 sm:px-6 lg:px-8">
-                    <div className="flex gap-32 px-4 py-8 sm:px-0 ">
-                        <div className="mx-0 w-3/4">
-                <h2 className="block text-4xl text-indigo-600 xl:inline">Joyful childhood</h2>
-                    <p className="mt-6s text-base text-gray-500 sm:mt-5 sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-            A great way top bring the outdoors inside. Keep your kids engaged during their boredom hours and get extra hours for you to. 
-                    </p> <br/>
-                    
-            <form id="btnfour">
-            
-            </form>
-
+                <div className="max-w-7xl mx-auto py-16 sm:px-6 lg:px-8">
+                    <div className="flex flex-col md:flex-row gap-4 px-4 py-8 sm:px-0 ">
+                        <div className="mx-0 w-3/3 sm:w-2/3">
+                            <h2 className="block text-4xl text-indigo-600 xl:inline">Joyful childhood</h2>
+                            <p className="mt-6s text-base text-gray-500 sm:mt-5 sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+                            My extra hour's is a monthly subscription box, that offer's life skills to kids related to projects, crafts and activities related to different areas.
+                            Keep your kids engaged during their boredom hours and get extra hours for you to.
+                            </p> <br/>
+                                <form id="btnfour">
+                                
+                                </form>
                         </div>
-                        <div className="mx-0 w-1/4">
-                            <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src={ image4 } alt=""/>
+                        <div className="mx-0 w-3/3 sm:w-1/3">
+                        <img className="rounded h-56 w-full object-contain sm:h-72 md:h-96 lg:w-full lg:h-full" src={ image4 } alt=""/>
                         </div>
                     </div>
                 </div>
             </div>
 
-
-
-
-
+            
             <div className="">
 
 
 
             {/*<!-- This example requires Tailwind CSS v2.0+ -->*/}
             <div className="py-12 bg-white">
-            <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="lg:text-center">
                 <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Fun arena</h2>
                 <p className="mt-12 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                     We ship happiness crate at your door step!
                 </p>
-                <p className="mt-8 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                Awesome monthly projects and more activities.
+                <p className="mt-8 max-w-2xl text-xl text-gray-500 lg:mx-auto leading-loose">
+                    Awesome monthly projects and more activities. <br/> A great way top bring the outdoors inside.
                 </p>
                 <br/>
                 <form id="btnfive">
