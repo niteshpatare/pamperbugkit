@@ -1,17 +1,20 @@
 const colors = require('tailwindcss/colors');
+const twblue = "#0397dd";
+const twpink = "#ee038c";
+
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
-  prefix: 'tw-',
+  prefix: '',
   theme: {
     colors: {
       gray: colors.coolGray,
-      blue: colors.sky,
+      blue: twblue,
       red: colors.rose,
-      pink: colors.fuchsia,
+      pink: twpink,
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
+      sans: ['Poppins', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
     extend: {
@@ -30,5 +33,5 @@ module.exports = {
       opacity: ['disabled'],
     }
   },
-  plugins: []
+  plugins: [],
 }

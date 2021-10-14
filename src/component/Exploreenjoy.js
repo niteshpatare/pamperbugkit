@@ -17,14 +17,14 @@ const Exploreenjoy = () => {
     return(
         <Fragment>
             <header className="bg-white shadow">
-                <div className="max-w-8xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                <h1 className="text-3xl font-bold text-gray-900">
-                    Explore and Enjoy
+                <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                <h1 className="text-3xl font-bold text-gray-900 mb-12">
+                <span className="text-pink">Pamper</span> <span className="text-blue">Bug</span>
                 </h1>
                 </div>
             </header>
             <main>
-                <div className="max-w-8xl mx-auto py-12 sm:px-6 lg:px-8">
+                <div className="max-w-7xl mx-auto py-12 sm:px-6 lg:px-8">
                 {/*<!-- Replace with your content -->*/}
                 
                 {/*
@@ -48,35 +48,34 @@ const Exploreenjoy = () => {
 
 
                 </div>*/}
-            <div className="grid grid-cols-2 gap-4 px-4 py-6 sm:px-0">
-            <div className="mt-14 mx-0 max-w-8xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-12 xl:mt-6">
-                    <div className="sm:text-center lg:text-left">
-                    <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                        <span className="block xl:inline">What you get </span>
-                        <span className="block text-indigo-600 xl:inline">every month</span>
-                    </h1>
-                    <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                        My extra hour's is a monthly subscription box, that offer's life skills to kids related to projects, crafts and activities related to different areas.
-                    </p><br/><br/>
-                    
-            <form id="btnone">
+                
+                            <div className="grid grid-col-1">
+                                <h1 className="text-7xl">
+                                    <span className="text-pink">Happiness</span> <span className="text-blue">Crate</span>
+                                </h1>
+                            </div> 
+                <div className="flex gap-32">
+                <div className="mt-14 mx-0 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-8 lg:px-0 xl:mt-6 w-3/5">
+                        <div className="sm:text-center lg:text-left">
+                        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                            <span className="block xl:inline text-pink-600">What you get </span>
+                            <span className="block text-blue-600 xl:inline">every month</span>
+                        </h1>
+                        <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                            My extra hour's is a monthly subscription box, that offer's life skills to kids related to projects, crafts and activities related to different areas.
+                        </p><br/><br/>
                         
-            </form>
-
-            <br/><br/>
-                        <div className="grid grid-col-1">
-                        
-                    </div>     
+                            <form id="btnone">
+                                        
+                            </form>    
+                        </div>
                     </div>
-                </div>
-                <div className="mx-0">
-                <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src={ hero } alt=""/>
-            </div>
-            </div>
-
+                    <div className="mx-0 w-2/5">
+                    <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src={ hero } alt=""/>
+                </div></div>
             </div>
 
-            <div className=" bg-gray-200">
+            <div className="bg-gray-200">
                 <div className="max-w-8xl mx-auto py-16 sm:px-6 lg:px-8">
                     <div className="flex gap-32 px-4 py-8 sm:px-0 ">
                         <div className="mx-0 w-3/4">
