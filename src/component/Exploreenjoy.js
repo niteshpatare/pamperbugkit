@@ -8,11 +8,11 @@ import hero from './images/hero1.png';
 const Exploreenjoy = () => {
 
       useEffect(() => {
-        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnone", "pl_I7JIn2PZzCZpeN");
-        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btntwo", "pl_I7JS7967JNUcKm");
-        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnthree", "pl_I7JS7967JNUcKm");
-        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnfour", "pl_I7JS7967JNUcKm");        
-        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnfive", "pl_I7JQJxYDRCVtXh"); 
+        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnone", "pl_IAiuucmhN31Rda");
+        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btntwo", "pl_IAjfeT2jqyePYP");
+        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnthree", "pl_IAjfeT2jqyePYP");
+        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnfour", "pl_IAjfeT2jqyePYP");        
+        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnfive", "pl_IAjmvVLlWbdO7d"); 
       }, []);
     return(
         <Fragment>
