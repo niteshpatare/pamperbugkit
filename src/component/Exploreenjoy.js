@@ -108,7 +108,7 @@ const Exploreenjoy = () => {
 
 
 
-            <div className="bg-gray-200">
+            <div className="">
                 <div className="max-w-7xl mx-auto py-16 sm:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row gap-4 px-4 py-8 sm:px-0 ">
                         <div className="mx-0 w-3/3 sm:w-2/3">
@@ -127,7 +127,7 @@ const Exploreenjoy = () => {
                 </div>
             </div>
                                    
-            <div className="">
+            <div className="bg-gray-200">
                 <div className="max-w-7xl mx-auto py-16 sm:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row gap-4 px-4 py-8 sm:px-0 ">
                         <div className="mx-0 w-3/3 sm:w-1/3">
@@ -148,7 +148,7 @@ const Exploreenjoy = () => {
             </div>
 
 
-            <div className="bg-gray-200">
+            <div className="">
                 <div className="max-w-7xl mx-auto py-16 sm:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row gap-4 px-4 py-8 sm:px-0 ">
                         <div className="mx-0 w-3/3 sm:w-2/3">
@@ -169,89 +169,86 @@ const Exploreenjoy = () => {
             </div>
 
             
-            <div className="">
-
-
-
+            <div className="bg-gray-200">
             {/*<!-- This example requires Tailwind CSS v2.0+ -->*/}
             <div className="py-12 bg-white">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="lg:text-center">
-                <h2 className="text-base text-prm font-semibold tracking-wide uppercase">Fun arena</h2>
-                <p className="mt-12 text-3xl leading-8 font-extrabold tracking-tight text-sec sm:text-4xl">
-                    We ship happiness crate at your door step!
-                </p>
-                <p className="mt-8 max-w-2xl text-xl text-gray-500 lg:mx-auto leading-loose">
-                    Awesome monthly projects and more activities. <br/> A great way top bring the outdoors inside.
-                </p>
-                <br/>
-                <form id="btnfive">
-            
-            </form>
-                </div>
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="lg:text-center">
+                    <h2 className="text-base text-prm font-semibold tracking-wide uppercase">Fun arena</h2>
+                    <p className="mt-12 text-3xl leading-8 font-extrabold tracking-tight text-sec sm:text-4xl">
+                        We ship happiness crate at your door step!
+                    </p>
+                    <p className="mt-8 max-w-2xl text-xl text-gray-500 lg:mx-auto leading-loose">
+                        Awesome monthly projects and more activities. <br/> A great way top bring the outdoors inside.
+                    </p>
+                    <br/>
+                    <form id="btnfive">
+                    
+                    </form>
+                    </div>
 
                 <div className="mt-16">
-                <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-14">
-                    <div className="relative">
-                    <dt>
-                        <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-prm text-white">
-                        {/*<!-- Heroicon name: outline/globe-alt -->*/}
-                        <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-                        </svg>
+                    <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-14">
+                        <div className="relative">
+                        <dt>
+                            <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-prm text-white">
+                            {/*<!-- Heroicon name: outline/globe-alt -->*/}
+                            <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                            </svg>
+                            </div>
+                            <p className="ml-16 text-lg leading-6 font-medium text-prm">Designed by a mother</p>
+                        </dt>
+                        <dd className="mt-2 ml-16 text-base text-gray-500">
+                            We offer all tools necessary to sculpt children into wholesome confident social beings and most importantly enjoy their own company.
+                        </dd>
                         </div>
-                        <p className="ml-16 text-lg leading-6 font-medium text-prm">Designed by a mother</p>
-                    </dt>
-                    <dd className="mt-2 ml-16 text-base text-gray-500">
-                        We offer all tools necessary to sculpt children into wholesome confident social beings and most importantly enjoy their own company.
-                    </dd>
-                    </div>
 
-                    <div className="relative">
-                    <dt>
-                        <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-prm text-white">
-                        {/*<!-- Heroicon name: outline/scale -->*/}
-                        <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
-                        </svg>
+                        <div className="relative">
+                        <dt>
+                            <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-prm text-white">
+                            {/*<!-- Heroicon name: outline/scale -->*/}
+                            <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                            </svg>
+                            </div>
+                            <p stroke="white" className="ml-16 text-lg leading-6 font-medium text-prm">Designed by a mother</p>
+                        </dt>
+                        <dd className="mt-2 ml-16 text-base text-gray-500">
+                            Kids age 6 - 14 plus get outside creative hours and more fun inculcated active hours.
+                        </dd>
                         </div>
-                        <p stroke="white" className="ml-16 text-lg leading-6 font-medium text-prm">Designed by a mother</p>
-                    </dt>
-                    <dd className="mt-2 ml-16 text-base text-gray-500">
-                        Kids age 6 - 14 plus get outside creative hours and more fun inculcated active hours.
-                    </dd>
-                    </div>
 
-                    <div className="relative">
-                    <dt>
-                        <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-prm text-white">
-                        {/*<!-- Heroicon name: outline/lightning-bolt -->*/}
-                        <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                        </svg>
+                        <div className="relative">
+                        <dt>
+                            <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-prm text-white">
+                            {/*<!-- Heroicon name: outline/lightning-bolt -->*/}
+                            <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                            </div>
+                            <p className="ml-16 text-lg leading-6 font-medium text-prm">Designed by a mother</p>
+                        </dt>
+                        <dd className="mt-2 ml-16 text-base text-gray-500">
+                            Offer your kids joyfull childhood that help them use their own imagination to create things.
+                        </dd>
                         </div>
-                        <p className="ml-16 text-lg leading-6 font-medium text-prm">Designed by a mother</p>
-                    </dt>
-                    <dd className="mt-2 ml-16 text-base text-gray-500">
-                        Offer your kids joyfull childhood that help them use their own imagination to create things.
-                    </dd>
-                    </div>
 
-                    <div className="relative">
-                    <dt>
-                        <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-prm text-white">
-                        {/*<!-- Heroicon name: outline/annotation -->*/}
-                        <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" color="currentColor" aria-hidden="true">
-                            <path stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-                        </svg>
+                        <div className="relative">
+                        <dt>
+                            <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-prm text-white">
+                            {/*<!-- Heroicon name: outline/annotation -->*/}
+                            <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" color="currentColor" aria-hidden="true">
+                                <path stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                            </svg>
+                            </div>
+                            <p className="ml-16 text-lg leading-6 font-medium text-prm">Designed by a mother</p>
+                        </dt>
+                        <dd className="mt-2 ml-16 text-base text-gray-500">
+                            Explore outdoors, make friends to play with and lots of fun and enjoyment.
+                        </dd>
                         </div>
-                        <p className="ml-16 text-lg leading-6 font-medium text-prm">Designed by a mother</p>
-                    </dt>
-                    <dd className="mt-2 ml-16 text-base text-gray-500">
-                        Explore outdoors, make friends to play with and lots of fun and enjoyment.
-                    </dd>
-                    </div>
-                </dl>
+                    </dl>
                 </div>
             </div>
             </div>
