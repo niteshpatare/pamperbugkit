@@ -49,62 +49,58 @@ const Exploreenjoy = () => {
 
                 </div>*/}
                 
-                <div className="grid grid-cols-4 gap-4 px-4 py-4">
-                    <div className="col-start-1 col-end-5 md:col-span-4 lg:col-span-1 sm:order-first md:order-last">
-                        <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
-                    </div>
-                    <div className="md:col-span-2 lg:col-span-4 sm:order-first md:order-last">                       
-                            <form id="btnone">
-                        
-                            </form>
-                    </div>
-                    <div className="col-span-4 md:col-span-4 lg:col-span-2 mx-0 lg:col-span-3 order-last lg:order-first sm:order-last">
-                            <h1 className="text-7xl leading-normal">
-                                    
-                            </h1><br/><br/>
-                            <h2 className="text-4xl text-prm sm:text-5xl md:text-6xl">
-                                <span className="leading-normal">Bring the outdoors inside.</span>
-                            </h2>   
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div className="bg-gray-200">
-                <div className="max-w-7xl py-4 px-4 grid grid-cols-1 gap-4">
-                    <div className="timeline grid grid-cols-1 py-16">
-                        <div className="container left">
-                            <div className="content">
-                            <h2 className="text-1xl px-4">How Pamper Bug,s Subscription Box Works.</h2><br/>
+                    <div className="grid grid-cols-4 gap-4 px-4 py-4">
+                        <div className="col-start-1 col-end-5 md:col-span-4 lg:col-span-1 sm:order-first md:order-last">
                             <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
-                            </div>
                         </div>
-                        <div className="container right">
-                            <div className="content">
-                            <h2 className="text-1xl px-4">Choose Your Plan.</h2><br/>
-                            <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
-                            </div>
+                        <div className="md:col-span-2 lg:col-span-4 sm:order-first md:order-last">                       
+                                <form id="btnone">
+                            
+                                </form>
                         </div>
-                        <div className="container left">
-                            <div className="content">
-                            <h2 className="text-1xl px-4">The First Crate Ships in 2 days.</h2><br/>
-                            <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
-                            </div>
-                        </div>
-                        <div className="container right">
-                            <div className="content">
-                            <h2 className="text-1xl px-4">Get your Happiness crate @ your doorstep.</h2><br/>
-                            <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
-                            </div>
+                        <div className="col-span-4 md:col-span-4 lg:col-span-2 mx-0 lg:col-span-3 order-last lg:order-first sm:order-last">
+                                <h1 className="text-7xl leading-normal">
+                                        
+                                </h1><br/><br/>
+                                <h2 className="text-4xl text-prm sm:text-5xl md:text-6xl">
+                                    <span className="leading-normal">Bring the outdoors inside.</span>
+                                </h2>   
                         </div>
                     </div>
                 </div>
-            </div>
 
 
 
-
+                <div className="bg-gray-200">
+                    <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 py-4 px-4 gap-4">
+                        <div className="timeline py-16">
+                            <div className="container left">
+                                <div className="content">
+                                <h2 className="text-1xl px-4">How Pamper Bug,s Subscription Box Works.</h2><br/>
+                                <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
+                                </div>
+                            </div>
+                            <div className="container right">
+                                <div className="content">
+                                <h2 className="text-1xl px-4">Choose Your Plan.</h2><br/>
+                                <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
+                                </div>
+                            </div>
+                            <div className="container left">
+                                <div className="content">
+                                <h2 className="text-1xl px-4">The First Crate Ships in 2 days.</h2><br/>
+                                <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
+                                </div>
+                            </div>
+                            <div className="container right">
+                                <div className="content">
+                                <h2 className="text-1xl px-4">Get your Happiness crate @ your doorstep.</h2><br/>
+                                <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
 
@@ -171,7 +167,7 @@ const Exploreenjoy = () => {
             
             <div className="bg-gray-200">
             {/*<!-- This example requires Tailwind CSS v2.0+ -->*/}
-            <div className="py-12 bg-white">
+            <div className="py-12 ">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="lg:text-center">
                     <h2 className="text-base text-prm font-semibold tracking-wide uppercase">Fun arena</h2>
