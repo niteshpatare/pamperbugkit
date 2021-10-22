@@ -4,7 +4,13 @@ import image2 from './images/image2.jpg';
 import image3 from './images/image3.jpg';
 import image4 from './images/image4.png';
 import { appendScript } from '../razor/Paybtnscript.js';
-import hero from './images/image1.jpg';
+import hero from './images/hero1.png';
+
+import box from './images/box.png';
+import plan from './images/plan.png';
+import ship from './images/ship.png';
+import delivery from './images/deivery.png';
+
 const Exploreenjoy = () => {
 
       useEffect(() => {
@@ -76,26 +82,26 @@ const Exploreenjoy = () => {
                         <div className="timeline py-16">
                             <div className="container left">
                                 <div className="content">
-                                <h2 className="text-1xl px-4">How Pamper Bug,s Subscription Box Works.</h2><br/>
-                                <img className="rounded h-32 object-cover" style={{"vertical-align":"top"}} src={ hero } alt=""/>
+                                <h2 className="text-1xl px-4 text-right">How Pamper Bug,s Subscription Box Works.</h2><br/>
+                                <img className="rounded h-32 w-full object-cover sm:h-32 md:h-32 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ box } alt=""/>
                                 </div>
                             </div>
                             <div className="container right">
                                 <div className="content">
                                 <h2 className="text-1xl px-4">Choose Your Plan.</h2><br/>
-                                <img className="rounded h-32 object-cover" style={{"vertical-align":"top"}} src={ hero } alt=""/>
+                                <img className="rounded h-32 w-full object-cover sm:h-32 md:h-32 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ plan } alt=""/>
                                 </div>
                             </div>
                             <div className="container left">
                                 <div className="content">
-                                <h2 className="text-1xl px-4">The First Crate Ships in 2 days.</h2><br/>
-                                <img className="rounded h-32 object-cover" style={{"vertical-align":"top"}} src={ hero } alt=""/>
+                                <h2 className="text-1xl px-4 text-right">The First Crate Ships in 2 days.</h2><br/>
+                                <img className="rounded h-32 w-full object-cover sm:h-32 md:h-32 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ ship } alt=""/>
                                 </div>
                             </div>
                             <div className="container right">
                                 <div className="content">
                                 <h2 className="text-1xl px-4">Get your Happiness crate @ your doorstep.</h2><br/>
-                                <img className="rounded h-32 object-cover" style={{"vertical-align":"top"}} src={ hero } alt=""/>
+                                <img className="rounded h-32 w-full object-cover sm:h-32 md:h-32 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ deliver } alt=""/>
                                 </div>
                             </div>
                         </div>
