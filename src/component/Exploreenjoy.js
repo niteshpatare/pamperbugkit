@@ -56,7 +56,7 @@ const Exploreenjoy = () => {
                     <div className="md:col-span-2 lg:col-span-4 sm:order-first md:order-last">                       
                             <form id="btnone">
                         
-                            </form> 
+                            </form>
                     </div>
                     <div className="col-span-4 md:col-span-4 lg:col-span-2 mx-0 lg:col-span-3 order-last lg:order-first sm:order-last">
                             <h1 className="text-7xl leading-normal">

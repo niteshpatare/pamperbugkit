@@ -1,6 +1,6 @@
 const colors = require('tailwindcss/colors');
 const twblue = "#0397dd";
-const twpink = "#ee038c";
+const twpink = "#e6007a";
 
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
