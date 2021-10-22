@@ -71,34 +71,34 @@ const Exploreenjoy = () => {
 
 
 
-            <div className="">
+            <div className="bg-gray-200">
                 <div className="max-w-7xl py-4 px-4 grid grid-cols-1 gap-4">
-                        <div className="timeline grid grid-cols-1 py-16">
-                            <div className="container left">
-                                <div className="content">
-                                <h2 className="text-1xl px-4">How Pamper Bug,s Subscription Box Works.</h2><br/>
-                                <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
-                                </div>
-                            </div>
-                            <div className="container right">
-                                <div className="content">
-                                <h2 className="text-1xl px-4">Choose Your Plan.</h2><br/>
-                                <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
-                                </div>
-                            </div>
-                            <div className="container left">
-                                <div className="content">
-                                <h2 className="text-1xl px-4">The First Crate Ships in 2 days.</h2><br/>
-                                <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
-                                </div>
-                            </div>
-                            <div className="container right">
-                                <div className="content">
-                                <h2 className="text-1xl px-4">Get your Happiness crate @ your doorstep.</h2><br/>
-                                <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
-                                </div>
+                    <div className="timeline grid grid-cols-1 py-16">
+                        <div className="container left">
+                            <div className="content">
+                            <h2 className="text-1xl px-4">How Pamper Bug,s Subscription Box Works.</h2><br/>
+                            <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
                             </div>
                         </div>
+                        <div className="container right">
+                            <div className="content">
+                            <h2 className="text-1xl px-4">Choose Your Plan.</h2><br/>
+                            <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
+                            </div>
+                        </div>
+                        <div className="container left">
+                            <div className="content">
+                            <h2 className="text-1xl px-4">The First Crate Ships in 2 days.</h2><br/>
+                            <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
+                            </div>
+                        </div>
+                        <div className="container right">
+                            <div className="content">
+                            <h2 className="text-1xl px-4">Get your Happiness crate @ your doorstep.</h2><br/>
+                            <img className="rounded h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ hero } alt=""/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
