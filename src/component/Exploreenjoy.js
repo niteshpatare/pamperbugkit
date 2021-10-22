@@ -7,7 +7,7 @@ import { appendScript } from '../razor/Paybtnscript.js';
 import hero from './images/hero1.png';
 
 import box from './images/box.png';
-import plan from './images/plan.png';
+import plan from './images/plan.jpg';
 import ship from './images/ship.png';
 import delivery from './images/deivery.png';
 
@@ -101,7 +101,7 @@ const Exploreenjoy = () => {
                             <div className="container right">
                                 <div className="content">
                                 <h2 className="text-1xl px-4">Get your Happiness crate @ your doorstep.</h2><br/>
-                                <img className="rounded h-32 w-full object-cover sm:h-32 md:h-32 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ deliver } alt=""/>
+                                <img className="rounded h-32 w-full object-cover sm:h-32 md:h-32 lg:w-full lg:h-full" style={{"vertical-align":"top"}} src={ delivery } alt=""/>
                                 </div>
                             </div>
                         </div>
