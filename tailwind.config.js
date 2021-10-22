@@ -23,6 +23,7 @@ module.exports = {
       colors: {
         prm: twblue,
         sec: twpink,
+        bgprm: twblue,
       }
     }
   },

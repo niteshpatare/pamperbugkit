@@ -4,8 +4,8 @@ import ab2 from './images/chalks.jpg';
 import ab3 from './images/floral.png';
 import ab4 from './images/kids.png';
 import ab5 from './images/doodle.png';
-import ab6 from './images/nature.jpg';
-import ab7 from './images/summer.png';
+import ab6 from './images/image1.jpg';
+import ab7 from './images/image2.jpg';
 import { appendScript } from '../razor/Paybtnscript.js';
 
 const Aboutbug = () => {

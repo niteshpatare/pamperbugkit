@@ -1,3 +1,13 @@
+/* ./src/index.css B:3,151,221 / #0397dd(:todo:) -- P:238,3,140 / #D97706; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+--prm: #e6007a;
+--sec: #0397dd;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,7 +21,131 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* ./src/index.css B:3,151,221 / #0397dd -- P:238,3,140 / #e6007a */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+}
+
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: var(--prm);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: var(--prm);
+  border: 4px solid  ;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
+.left {
+  left: 0;
+  border-right: solid 1px var(--prm);
+    background-color: var( --sec);
+}
+
+
+.right {
+  left: 50%;
+  border-left: solid 1px var(--prm);
+    background-color: var( --sec);
+}
+
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 40px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 40px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+
+.right::after {
+  left: -16px;
+  border:solid 1px var(--prm);
+}
+.left:after{
+border: solid 1px var(--prm);
+}
+.content {
+  padding: 10px 10px;
+  color: white;
+  position: relative;
+  border-radius: 6px;  
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .timeline::after {
+  left: 31px;
+  }
+  
+
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  .right {
+  left: 0%;
+  }
+}
