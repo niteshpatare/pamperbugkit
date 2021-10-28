@@ -22,10 +22,13 @@ const Festivekit = () => {
             <div className="">
                 <div className="max-w-7xl mx-auto py-4 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-4 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
                     <div>
-                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl text-sec">Whats inside?</h2>
+                    
+                    <h2 className="text-4xl text-sec sm:text-5xl md:text-6xl">
+                                    <span className="leading-normal">Whats inside?</span>
+                                </h2>  
                     <p className="mt-4 text-gray-500">Spice up the Diwali celebration by adding fun filled activities.</p>
 
-                    <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-6 lg:gap-x-8">
+                    <dl className="mt-12 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-6 lg:gap-x-8">
                         <div className="border-t border-gray-200 pt-4">
                         <dt className="font-medium text-lg text-gray-900">Origin</dt>
                         <dd className="mt-2 text-base text-gray-500">Pre-plan the entire diwali.</dd>
