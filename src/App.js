@@ -12,7 +12,7 @@ import Aboutbug from "./component/Aboutbug.js";
 function App() {
 
   useEffect(() => {       
-    appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnbottom", "pl_I7JIn2PZzCZpeN");  
+    appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnbottom", "pl_IAjmvVLlWbdO7d");  
   }, []);
 
   return (

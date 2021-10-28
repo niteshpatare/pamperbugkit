@@ -10,7 +10,7 @@ module.exports = {
 
     fontFamily: {
       sans: ['Poppins', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      serif: ['Roboto', 'serif'],
     },
     extend: {
       spacing: {
