@@ -37,8 +37,8 @@ const Aboutbug = () => {
               </p>
               <br/>
               <div className="py-16">
-                <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Email</h2>
-                <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                <h2 className="text-base text-prm font-semibold tracking-wide uppercase">Email</h2>
+                <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-prm sm:text-4xl">
                 contact@pamperbug.com
                 </p>
                 <p className="mt-8 max-w-2xl text-xl text-gray-500 ">
