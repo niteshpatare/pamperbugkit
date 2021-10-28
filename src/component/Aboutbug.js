@@ -11,13 +11,13 @@ import { appendScript } from '../razor/Paybtnscript.js';
 const Aboutbug = () => {
 
     useEffect(() => {
-        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnone", "pl_I7JS7967JNUcKm");
+        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnone", "pl_IAiuucmhN31Rda");
       }, []);
 
     return (
         <Fragment>
             <header className="bg-white shadow">
-                <div className="max-w-8xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                 <h1 className="text-3xl font-bold text-gray-900">
                 <span className="text-prm font-extrabold">About</span> <span className="text-sec"> Pamper Bug</span>
                 </h1>
@@ -26,9 +26,9 @@ const Aboutbug = () => {
         <main>
       <div className="relative  overflow-hidden">
         <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-32 lg:pb-48">
-          <div className="relative max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
             <div className="sm:max-w-4xl ">
-              <h1 className="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl text-prm">
+              <h1 className="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl text-sec">
                 Bugs are live!
               </h1>
               <p className="mt-4 text-xl text-gray-500">
@@ -56,7 +56,7 @@ const Aboutbug = () => {
                 {/* Decorative image grid */}
                 <div
                   aria-hidden="true"
-                  className="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-8xl lg:mx-auto lg:w-full"
+                  className="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full"
                 >
                   <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-2">
                     <div className="flex items-center space-x-6 lg:space-x-10">

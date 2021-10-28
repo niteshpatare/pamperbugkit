@@ -68,7 +68,7 @@ const Exploreenjoy = () => {
                                 <h1 className="text-7xl leading-normal">
                                         
                                 </h1><br/><br/>
-                                <h2 className="text-4xl text-prm sm:text-5xl md:text-6xl">
+                                <h2 className="text-4xl text-sec sm:text-5xl md:text-6xl">
                                     <span className="leading-normal">Bring the outdoors inside.</span>
                                 </h2>   
                         </div>

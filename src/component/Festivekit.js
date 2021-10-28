@@ -6,13 +6,13 @@ import diya3 from './images/diya3.jpg';
 import diya4 from './images/diya4.jpg';
 const Festivekit = () => {
     useEffect(() => {
-        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnfkone", "pl_I7JS7967JNUcKm");        
+        appendScript("https://checkout.razorpay.com/v1/payment-button.js", "btnfkone", "pl_IAiuucmhN31Rda");        
  
       }, []);
     return (
         <Fragment>
         <header className="bg-white shadow">
-                <div className="max-w-8xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                 <h1 className="text-3xl font-bold text-gray-900">
                 <span className="text-prm font-extrabold">Festive</span> <span className="text-sec"> Kit</span>
                 </h1>
@@ -20,9 +20,9 @@ const Festivekit = () => {
             </header>
             <main>
             <div className="">
-                <div className="max-w-8xl mx-auto py-4 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-4 lg:max-w-8xl lg:px-8 lg:grid-cols-2">
+                <div className="max-w-7xl mx-auto py-4 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-4 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
                     <div>
-                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl text-prm">Whats inside?</h2>
+                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl text-sec">Whats inside?</h2>
                     <p className="mt-4 text-gray-500">Spice up the Diwali celebration by adding fun filled activities.</p>
 
                     <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-6 lg:gap-x-8">

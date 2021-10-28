@@ -106,6 +106,10 @@ function App() {
                       <a href="https://kayakcm.com" className="flex items-centertext-sm font-small text-xs text-gray-900">
                     Crafted by KayakCM.com
                   </a> 
+                  <a href="https://www.pandagoesfishing.com" className="flex items-centertext-sm font-small text-xs text-gray-900">
+                  In love with pandagoesfishing.com
+                  </a> 
+                    
                     </span>
 
                   </p>
