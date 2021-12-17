@@ -55,11 +55,17 @@ function App() {
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {/*<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->*/}
-            <a href="/" className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Explore and Enjoy</a>
 
-            <a href="/festivekit" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Festive Kit</a>
+            <NavLink to="/" exact aria-current="page" activeClassName="bg-gray-900" className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium">
+                    Explore and Enjoy
+            </NavLink>
+            <NavLink to="/festivekit" aria-current activeClassName="bg-gray-900" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                    Festive Kit
+            </NavLink>
 
-            <a href="/aboutpamperbug" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About Pamper Bug</a>
+            <NavLink to="/aboutpamperbug" aria-current activeClassName="bg-gray-900" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                  About Pamper Bug
+            </NavLink> 
 
           </div>
         </div>
